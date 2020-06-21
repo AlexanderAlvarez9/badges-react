@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 import './Global.css'
 import BadgeNew from './pages/BadgeNew'
+import Badges from './pages/Badges'
 
 // const jsx = <h1>Hola proyecto de Platzi Medallas, desde React</h1>
 // const element = React.createElement('a', { href: 'https://www.google.com' }, 'ir a Google')
@@ -20,7 +21,7 @@ import BadgeNew from './pages/BadgeNew'
 const container = document.getElementById('app');
 
 // ReactDOM.render(__que__, ___donde___);
-ReactDOM.render(<BadgeNew />, container);
+ReactDOM.render(<Badges />, container);
 
 // ReactDOM.render(<Badge
 //     avatarUrl="https://s.gravatar.com/avatar/73e82d5839f558f49b9b9e50ca827b2b?s=80"
