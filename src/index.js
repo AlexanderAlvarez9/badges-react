@@ -1,16 +1,31 @@
-// const element = document.createElement('h1');
-// element.innerText = 'Hello, Platzi Badges!';
-
-// const container = document.getElementById('app');
-
-// container.appendChild(element);
-
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css'
 
-const element = <h1>Hello, Platzi Badges!</h1>;
+import './Global.css'
+import BadgeNew from './pages/BadgeNew'
+
+// const jsx = <h1>Hola proyecto de Platzi Medallas, desde React</h1>
+// const element = React.createElement('a', { href: 'https://www.google.com' }, 'ir a Google')
+// const element = React.createElement('h1', {}, `Hola Soy ${name}`)
+
+// const jsx = (
+//     <div>
+//         <h1>Hola Soy {name}</h1>
+//         <p>Sere un futuro frontend developer</p>
+//     </div>
+// )
+
 
 const container = document.getElementById('app');
 
-// ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(element, container);
+// ReactDOM.render(__que__, ___donde___);
+ReactDOM.render(<BadgeNew />, container);
+
+// ReactDOM.render(<Badge
+//     avatarUrl="https://s.gravatar.com/avatar/73e82d5839f558f49b9b9e50ca827b2b?s=80"
+//     fristName="Sofia"
+//     lastName="Alvarez"
+//     jobTitle="Muñeca"
+//     twitter="No tiene"
+// />, container);
