@@ -4,7 +4,6 @@ import confLogo from '../images/platziconf-logo.svg';
 import { Link } from 'react-router-dom';
 import Badge from '../components/Badge';
 import DeleteBadgeModal from '../components/DeleteBadgeModal';
-import ReactDOM from 'react-dom'
 
 
 function useIncreaseCount(max) {
@@ -52,7 +51,7 @@ function BadgeDetails(props) {
               <div>
                 <button onClick={() => {
                   setCount(count + 1)
-                }} className="btn btn-primary mr-4">
+                }} className="btn btn-primary me-4">
                   Incrementa contador: {count}
                 </button>
 

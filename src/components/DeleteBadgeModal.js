@@ -7,7 +7,7 @@ function DeleteBadgeModal(props) {
       <h1>Estas seguro</h1>
       <p>Estas a punto de borrar este badge</p>
       <div>
-        <div onClick={props.onDeleteBadge} className="btn btn-danger mr-4">Borrar</div>
+        <div onClick={props.onDeleteBadge} className="btn btn-danger me-4">Borrar</div>
         <div onClick={props.onClose} className="btn btn-primary">Cancel</div>
       </div>
     </div>

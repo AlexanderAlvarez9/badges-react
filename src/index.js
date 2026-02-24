@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css'
 
 import './Global.css'
@@ -18,9 +18,8 @@ import App from './components/App'
 
 
 const container = document.getElementById('app');
-
-// ReactDOM.render(__que__, ___donde___);
-ReactDOM.render(<App />, container);
+const root = createRoot(container);
+root.render(<App />);
 
 // ReactDOM.render(<Badge
 //     avatarUrl="https://s.gravatar.com/avatar/73e82d5839f558f49b9b9e50ca827b2b?s=80"
